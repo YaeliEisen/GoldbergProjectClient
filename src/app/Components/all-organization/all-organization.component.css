@@ -1,0 +1,19 @@
+
+.all-labels
+{
+  display: flex;
+  flex-wrap: nowrap; 
+  position: relative;
+  top:30px;
+}
+.all{
+    
+    
+    margin-left: 200px;
+}
+.label{
+    font-size:25px;
+    color:blue;
+}
+
+  

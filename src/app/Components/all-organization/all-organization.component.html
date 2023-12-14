@@ -1,0 +1,13 @@
+
+  <div class="all-labels">
+  <div class="all" *ngFor="let o of organizations">
+    <label class="label" (click)="goToComponentWithOrganization(o.organizationName)">{{ o.organizationName }}</label>
+  </div>
+</div>
+
+  <router-outlet></router-outlet>
+
+
+
+
+

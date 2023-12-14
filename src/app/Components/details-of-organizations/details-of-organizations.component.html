@@ -1,0 +1,17 @@
+<div class="all">
+    <div class="logo">
+        <img [src]="loge?.imageName" alt="Image"  width="300px" height="200px"/>
+    </div>
+<div class="image">
+    <img [src]="currentImage?.imageName" alt="Image"  width="450vw" height="220vw" />
+</div>
+
+</div>
+<app-timer class="timer"></app-timer>
+<div *ngFor="let cfo of communitiesForOrganizations">
+   <div [ngStyle]="{'background-color':getColor(cfo.amountOfPercent),'width':'80px','position': 'relative','top':'60px','left':'200px'}">{{cfo.amountOfPercent}}</div>
+</div>
+
+
+
+

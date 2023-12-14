@@ -1,0 +1,21 @@
+.all{
+    display: flex;
+    
+}
+.logo{
+    flex: 1;
+    position: relative;
+    top:130px;
+    left:100px
+}
+.image{
+    flex: 1;
+    position: relative;
+    top:130px;
+    left:300px
+}
+.timer{
+    position: relative;
+    top: 300px;
+    right: 130px;
+}
